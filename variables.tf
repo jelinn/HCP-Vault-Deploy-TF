@@ -41,6 +41,12 @@ variable "consul_tier" {
   default     = "development"
 }
 
+variable "tier" {
+  description = "Tier of the HCP Vault cluster. Valid options for tiers."
+  type        = string
+  default     = "development"
+}
+
 variable "vpc_cidr" {
   type = string
   default = "10.0.1.0/24"
