@@ -50,19 +50,3 @@ variable "az" {
   type = string
   default = "us-west-2a"
 }
-
-variable "Name" {
-  type = string
-}
-
-variable "owner" {
-  type = string
-}
-
-variable "TTL" {
-  type = number
-}
-
-variable "public_key" {
-  type = string
-}
